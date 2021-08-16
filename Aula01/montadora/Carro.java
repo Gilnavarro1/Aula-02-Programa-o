@@ -135,10 +135,6 @@ public class Carro {
 
   // método de retorno dos textos:
   public String toString() {
-    /*
-     * String resposta = "Cor: " + cor + "\n" + "Marca: " + marca + "\n" +
-     * "Modelo: " + modelo; return resposta;
-     */
     return "Cor: " + cor + "\n" + "Marca: " + marca + "\n" + "Modelo: " + modelo + "\n" + "Num. portas: " + numeroPortas
         + "\n" + "Vel. máxima: " + velocidadeMaxima + "\n" + "Nome proprietário: " + nomeProprietario + "\n"
         + "KmRodados: " + kmRodados + "\n" + "Litros combustível:" + litrosCombustivel;
